@@ -15,8 +15,7 @@ const EditTugas = () => {
   },[])
 
   async function getTugasById(){
-    const res = await axios.get(`${baseURL}/${id}`)
-    console.log(res)
+    const res = await axios.get(`${baseURL}/${id}`);
     setNamaTugas(res.data.data.nama_tugas);
     setMapel(res.data.data.mapel);
     setDeadline(res.data.data.deadline)

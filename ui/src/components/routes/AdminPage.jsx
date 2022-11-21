@@ -21,7 +21,6 @@ const AdminPage = () => {
         await axios.delete(`http://localhost:5000/tugas/${id}`);
         setTugas();
         window.location.reload();
-        alert("data has deleted!")
     }catch(err){
         console.error(err.message)
     }
