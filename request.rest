@@ -1,0 +1,28 @@
+GET http://localhost:5000/tugas
+
+###
+GET http://localhost:5000/tugas/2
+
+###
+POST http://localhost:5000/tugas
+Content-Type: application/json
+
+{
+    "nama_tugas": "makalah",
+    "mapel": "PJOK",
+    "deadline": "25-11-2022"
+}
+
+
+###
+PATCH http://localhost:5000/tugas/5
+Content-Type: application/json
+
+{
+    "nama_tugas": "drama",
+    "mapel": "b.ind",
+    "deadline": "30-11-2022"
+}
+
+###
+DELETE  http://localhost:5000/tugas/5

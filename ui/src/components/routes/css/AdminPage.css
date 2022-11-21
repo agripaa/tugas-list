@@ -1,0 +1,47 @@
+.container{
+    max-width: 1400;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kohi{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.content-table {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+	border-collapse:collapse;
+	padding:5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-table th:nth-child(1), .content-table td:nth-child(1){
+    width: 50px;
+}
+
+.content-table th:nth-child(2), .content-table td:nth-child(2){
+    width: 500px;
+}
+.content-table th {
+	border:1px solid #C0C0C0;
+	padding:5px;
+	background:#F0F0F0;
+    width: 200px;
+}
+.content-table td {
+	border:1px solid #C0C0C0;
+    text-align: center;
+	padding:5px;
+    width: 200px;
+}
